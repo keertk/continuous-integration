@@ -207,11 +207,11 @@ DOWNSTREAM_PROJECTS_PRODUCTION = {
     #     "pipeline_slug": "gerrit",
     #     "disabled_reason": "https://github.com/bazelbuild/continuous-integration/issues/1182",
     # },
-    "Google Logging": {
-        "git_repository": "https://github.com/google/glog.git",
-        "http_config": "https://raw.githubusercontent.com/google/glog/master/.bazelci/presubmit.yml",
-        "pipeline_slug": "google-logging",
-    },
+    # "Google Logging": {
+    #     "git_repository": "https://github.com/google/glog.git",
+    #     "http_config": "https://raw.githubusercontent.com/google/glog/master/.bazelci/presubmit.yml",
+    #     "pipeline_slug": "google-logging",
+    # },
     # "IntelliJ Plugin": {
     #     "git_repository": "https://github.com/bazelbuild/intellij.git",
     #     "http_config": "https://raw.githubusercontent.com/bazelbuild/intellij/master/.bazelci/intellij.yml",
@@ -425,11 +425,11 @@ DOWNSTREAM_PROJECTS_PRODUCTION = {
     #     "http_config": "https://raw.githubusercontent.com/bazelbuild/rules_webtesting/master/.bazelci/presubmit.yml",
     #     "pipeline_slug": "rules-webtesting-saucelabs",
     # },
-    "upb": {
-        "git_repository": "https://github.com/protocolbuffers/upb.git",
-        "http_config": "https://raw.githubusercontent.com/protocolbuffers/upb/master/.bazelci/presubmit.yml",
-        "pipeline_slug": "upb",
-    },
+    # "upb": {
+    #     "git_repository": "https://github.com/protocolbuffers/upb.git",
+    #     "http_config": "https://raw.githubusercontent.com/protocolbuffers/upb/master/.bazelci/presubmit.yml",
+    #     "pipeline_slug": "upb",
+    # },
 }
 
 DOWNSTREAM_PROJECTS_TESTING = {
